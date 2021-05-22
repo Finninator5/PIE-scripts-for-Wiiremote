@@ -1,0 +1,42 @@
+﻿//LED
+wiimote1.led3=true
+//Wiimote controls
+keyboard.Left = wiimote1.Left
+
+keyboard.Right = wiimote1.Right
+
+keyboard.Up = wiimote1.Up
+
+keyboard.Down = wiimote1.Down
+//Nunchuk controls
+keyboard.Left = wiimote1.Nunchuk.Left
+
+keyboard.Right = wiimote1.Nunchuk.Right
+
+keyboard.Up = wiimote1.Nunchuk.Up
+
+keyboard.Down = wiimote1.Nunchuk.Down
+//Menu buttons
+keyboard.Enter = wiimote1.A
+
+keyboard.Enter = wiimote1.Plus
+
+keyboard.Escape = wiimote1.Home
+
+keyboard.Enter = wiimote.Minus
+
+keyboard.Alt = wiimote1.Nunchuk.CButton
+
+keyboard.Enter = wiimote1.Nunchuk.CButton
+
+keyboard.NumpadMinus = wiimote1.One
+
+keyboard.NumpadPlus = wiimote1.Two
+
+
+//cheese
+
+keyboard.Up = wiimote1.Nunchuk.ZButton
+keyboard.Down = wiimote1.Nunchuk.ZButton
+keyboard.Left = wiimote1.Nunchuk.ZButton
+keyboard.Right = wiimote1.Nunchuk.ZButton
