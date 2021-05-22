@@ -1,0 +1,29 @@
+﻿wiimote1.led1=true
+
+debug = wiimote1.Nunchuk.RelAcc
+
+if (not var.updir) && (not var.downdir) {
+   var.updir = wiimote1.RelAccY > 14
+   }
+
+if (not var.downdir) && (not var.updir){
+   var.downdir= wiimote1.RelAccY < -14
+   }
+
+keyboard.A = wiimote1.RelAccY > 14
+
+keyboard.B = wiimote1.Nunchuk.RelAccY > 11
+
+if (not var.updir) && (not var.downdir) {
+   var.updir = wiimote1.Nunchuk.RelAccY > 11
+   }
+
+if (not var.downdir) && (not var.updir){
+   var.downdir= wiimote1.Nunchuk.RelAccY < -11
+   }
+
+ keyboard.H  = wiimote1.A
+
+keyboard.Left = wiimote1.Left
+
+keyboard.Right = wiimote1.Right
